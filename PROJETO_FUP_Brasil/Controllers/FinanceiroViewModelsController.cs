@@ -48,7 +48,7 @@ namespace PROJETO_FUP_Brasil.Controllers
                 var fonteDescricao = new PdfSharpCore.Drawing.XFont("Ariel", 8, PdfSharpCore.Drawing.XFontStyle.BoldItalic);
                 var tituloDetalhes = new PdfSharpCore.Drawing.XFont("Ariel", 8, PdfSharpCore.Drawing.XFontStyle.Bold);
                 var fonteDetalhesDescricao = new PdfSharpCore.Drawing.XFont("Ariel", 7);
-                var logo = @"C:\Users\dionn\Desktop\Ferman19.05.2020\PROJETO_FUP_Brasil\wwwroot\img\logo.jpg";
+                var logo = @"C:\Users\dionn\Desktop\Ferman24.05\PROJETO_FUP_Brasil\wwwroot\img\logo.jpg";
                 var qtdPaginas = doc.PageCount;
 
                 //imagem logotipo
